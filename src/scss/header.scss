@@ -33,6 +33,7 @@
                 color: $_color-navigation;
                 font-size: 13px;
                 font-weight: 700;
+                padding: 0 15px;
             }
             li a:hover{
                 border-bottom: 3px solid #BABBC5;
@@ -62,7 +63,7 @@
             color: $_color-header-text;
         } 
     }
-    &-button{
+    &-link{
         border: 0;
         background-color: $_background-header-button;
         padding: 20px 70px;

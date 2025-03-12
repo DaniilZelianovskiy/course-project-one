@@ -1,15 +1,13 @@
 .cards{
-    padding:114px 0;
+    padding:114px 0px;
     &-wrap{
         display: flex;
         flex-wrap: wrap;
+        margin: 0 -10px;
     }
     &-items{
         width: 270px;
-        margin-right: 20px;
-        &:last-child{
-            margin-right: 0px;
-        }
+        margin: 0 10px ;
         &-img{
             width: 270px;
             height: 270px;
