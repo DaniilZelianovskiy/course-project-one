@@ -1,0 +1,32 @@
+.download{
+    padding: 115px 0;
+    text-align: center;
+    &-title{
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    &-text{
+        margin-bottom: 48px;
+        p{
+            font-size: 18px;
+            font-weight: 700;
+        }   
+    }
+    &-button{
+        font-family: "Raleway";
+        border: 0;
+        padding: 15px 60px;
+        font-size: 24px;
+        font-weight: 900;
+        background-color:$_background-download-button ;
+        color: $_color-download-button;
+        &:hover{
+            background-color: $_background_hover-download-button;
+        }
+        &:active{
+            background-color: $_background_active-download-button;
+            box-shadow: 1px 1px 5px 5px $_background_active-download-button;
+        }
+    }
+}

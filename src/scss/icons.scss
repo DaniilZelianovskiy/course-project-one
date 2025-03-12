@@ -1,0 +1,31 @@
+.icons{
+    padding: 116px 0 134px;
+    &-items{
+        max-width: 375px;
+        text-align: center;
+    }
+    &-container{
+        display: grid;
+        grid-template-rows: repeat(1fr,1fr);
+        grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+        gap: 89px 29px;
+    }
+    &-img{
+        margin-bottom: 60px;
+        i{
+            font-size: 70px;
+            color: $_color-icons;
+        }
+    }
+    &-title{
+        font-size: 24px;
+        font-weight: 900;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+    &-wrap-text p{
+        font-size: 18px;
+        font-weight: 400;
+        color: $_color-icons-text;
+    }
+}

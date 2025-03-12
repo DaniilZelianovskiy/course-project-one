@@ -1,0 +1,45 @@
+.about{
+    padding: 71px 0;
+    background-color:$_background-about ;
+    &-wrap{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &-items{
+        width: 370px;
+        text-align: center  ;
+    }
+    &-title{
+        color: $_color-about-title;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 29px;
+        text-transform: uppercase;
+    }
+    &-text p{
+        color: $_color-about-text;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    &-icons{
+        &-wrap{
+            display: flex;
+            justify-content: center;
+            li{
+                padding: 8px;
+                border: 1px solid $_color-about-icons;
+                margin-left: 23px;
+                &:first-child{
+                    margin-left: 0px;
+                }
+            }
+            li i{
+                font-size: 18px;
+                color:$_color-about-icons;
+            }
+        }
+    }
+}
+#about-icons-facebook{
+     padding: 8px 13px;
+ }
